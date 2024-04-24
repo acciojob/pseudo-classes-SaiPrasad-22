@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+*{
+	background-color: rgb(135, 206, 235);
+}
+
+.container :first-child{
+	color: white;
+	background-color: black;
+}
+
+.container :last-child{
+	color: red;
+}
+
+
+ul {
+    width: 50%;
+}
+
+ul li {
+    padding: 10px;
+    background-color: gray;
+}
+
+/* All list items have gray background color and odd items have white background color */
+ul li:nth-child(odd) {
+    background-color: white;
+}
+
+/* Set the first and last list items font size to 22px */
+ul li:first-child,
+ul li:last-child {
+    font-size: 22px;
+}
+
+/* Third-to-last item with pink background color */
+ul li:nth-child(3) {
+    background-color: pink;
+}
+
+
+
